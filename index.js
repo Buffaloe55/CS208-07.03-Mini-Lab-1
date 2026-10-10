@@ -1,5 +1,5 @@
 function calcWordFrequencies(words) {
-    const wordList = words.split("");
+    const wordList = words.split(" ");
     const frequencies = new Map();
 
     for (const word of wordList) {
