@@ -6,6 +6,10 @@ function calcWordFrequencies(words) {
         const count = frequencies.get(word) || 0;
         frequencies.set(word, count + 1);
     }
+
+    for (const [word,count] of frequencies) {
+        console.log(word + " " + count);
+    }
 }
 
 
